@@ -1,0 +1,35 @@
+package algorithm;
+
+import java.awt.font.NumericShaper.Range;
+import java.util.List;
+
+import domain.Firefly;
+
+/**
+ * 萤火虫算法接口
+ * 
+ * @author hba
+ *
+ */
+public interface FireflyAlgorithm {
+	/**
+	 * 种群初始化
+	 */
+	public void initPop();
+
+	/**
+	 * 计算欧氏距离
+	 */
+	public double calcDistance(double[] a, double[] b);
+
+	/**
+	 * 计算吸引度
+	 */
+	public void calcAttraction();
+
+	/**
+	 * 算法运行
+	 */
+	public void start(int maxGen,Range range);
+
+}

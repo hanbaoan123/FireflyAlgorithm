@@ -1,0 +1,32 @@
+package domain;
+
+public class Position {
+	/**
+	 * 维度
+	 */
+	private int dimension;
+	/**
+	 * 位置编码
+	 */
+	private double[] positionCode;
+	/**
+	 * 位置取值范围
+	 */
+	private Range range;
+
+	public int getDimension() {
+		return dimension;
+	}
+
+	public void setDimension(int dimension) {
+		this.dimension = dimension;
+	}
+
+	public double[] getPositionCode() {
+		return positionCode;
+	}
+
+	public void setPositionCode(double[] positionCode) {
+		this.positionCode = positionCode;
+	}
+}

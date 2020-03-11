@@ -1,0 +1,11 @@
+package operation;
+
+import domain.Position;
+
+public class PositionUtil implements Cloneable {
+	public static double[] sub(double[] positiona, double[] positionb) {
+		double[] position = new double[positiona.length];
+
+		return position;
+	}
+}

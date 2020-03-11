@@ -1,0 +1,18 @@
+package domain;
+
+public class ObjectiveFun {
+	/**
+	 * 返回目标函数值
+	 * 
+	 * @param positionCode
+	 * @return
+	 */
+	public double objValue(double[] positionCode) {
+		double son = Math.sin(Math.sqrt((positionCode[0] * positionCode[0] + positionCode[1] * positionCode[1])));
+		son = son * son - 0.5;
+		double mot = 1 + 0.001 * (positionCode[0] * positionCode[0] + positionCode[1] * positionCode[1]);
+		mot = mot * mot;
+		return son / mot - 0.5;
+	}
+
+}

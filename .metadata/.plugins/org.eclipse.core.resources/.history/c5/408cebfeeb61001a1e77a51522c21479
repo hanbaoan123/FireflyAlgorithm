@@ -1,0 +1,10 @@
+package operation;
+
+import domain.Position;
+
+public class PositionUtil {
+	public static Position sub(Position positiona, Position positionb) {
+		Position position = positiona.clone();
+		return point.sub(pointb);
+	}
+}

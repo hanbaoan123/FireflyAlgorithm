@@ -1,0 +1,22 @@
+package algorithm;
+
+import java.util.List;
+
+import domain.Firefly;
+
+/**
+ * 萤火虫算法接口
+ * 
+ * @author hba
+ *
+ */
+public interface FireflyAlgorithm {
+	final List<Firefly> fireflies; // Firefly population 萤火虫的种群表示
+	int popNum; // the number of firefly population 萤火虫的种群数量
+	int dim; // the space dimension 萤火虫所处空间的维度
+	int maxT; // Maximum iteration number 萤火虫算法最大迭代次数
+
+	double beta; // Necessary value 一些必要的参数
+	double alpha;
+	double gamma;
+}

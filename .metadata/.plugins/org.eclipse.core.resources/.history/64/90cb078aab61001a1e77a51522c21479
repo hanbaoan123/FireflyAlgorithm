@@ -1,0 +1,12 @@
+package domain;
+
+public class Position {
+	/**
+	 * Œ¨∂»
+	 */
+	private int dimension;
+	/**
+	 * Œª÷√±‡¬Î
+	 */
+	private double[] positionCode;
+}

@@ -1,0 +1,28 @@
+package domain;
+
+public class Position {
+	/**
+	 * Œ¨∂»
+	 */
+	private int dimension;
+	/**
+	 * Œª÷√±‡¬Î
+	 */
+	private double[] positionCode;
+
+	public int getDimension() {
+		return dimension;
+	}
+
+	public void setDimension(int dimension) {
+		this.dimension = dimension;
+	}
+
+	public double[] getPositionCode() {
+		return positionCode;
+	}
+
+	public void setPositionCode(double[] positionCode) {
+		this.positionCode = positionCode;
+	}
+}

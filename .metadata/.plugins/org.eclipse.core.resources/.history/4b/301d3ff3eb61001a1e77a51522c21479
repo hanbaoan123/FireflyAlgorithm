@@ -1,0 +1,8 @@
+package operation;
+
+public class PositionUtil {
+	public static Point sub(Point pointa, Point pointb) {
+		Point point = pointa.clone();
+		return point.sub(pointb);
+	}
+}

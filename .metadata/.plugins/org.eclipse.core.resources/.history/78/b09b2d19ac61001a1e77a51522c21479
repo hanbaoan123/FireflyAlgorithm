@@ -1,0 +1,16 @@
+package algorithm;
+
+/**
+ * 萤火虫算法接口
+ * 
+ * @author hba
+ *
+ */
+public interface FireflyAlgorithm {
+	protected List<Firefly> fireflies; // Firefly population 萤火虫的种群表示
+	protected int popNum; // the number of firefly population 萤火虫的种群数量
+	protected int dim; // the space dimension 萤火虫所处空间的维度
+	protected int maxT; // Maximum iteration number 萤火虫算法最大迭代次数
+
+	protected double beta, alpha, gamma; // Necessary value 一些必要的参数
+}

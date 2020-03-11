@@ -1,0 +1,9 @@
+package algorithm;
+/**
+ * Ó©»ğ³æËã·¨½Ó¿Ú
+ * @author hba
+ *
+ */
+public interface FireflyAlgorithm {
+
+}

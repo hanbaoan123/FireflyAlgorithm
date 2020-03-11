@@ -1,0 +1,16 @@
+package test;
+
+import algorithm.FANormal;
+import domain.ObjectiveFun;
+
+public class FATest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 新建目标函数
+		ObjectiveFun objectiveFun = new ObjectiveFun();
+		FANormal faNormal = FANormal.builder().maxGen(100).dim(2).objectiveFun(objectiveFun).build();
+		faNormal.start(range);
+	}
+
+}

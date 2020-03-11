@@ -1,0 +1,29 @@
+package domain;
+
+/**
+ * 自变量取值范围
+ * 
+ * @author hba
+ *
+ */
+public class Range {
+	/**
+	 * 维度
+	 */
+	private int dim;
+	/**
+	 * 取值上限
+	 */
+	private double[] high;
+	/**
+	 * 取值下限
+	 */
+	private double[] low;
+
+	public Range(int dim, double[] high, double[] low) {
+		super();
+		this.dim = dim;
+		this.high = high;
+		this.low = low;
+	}
+}

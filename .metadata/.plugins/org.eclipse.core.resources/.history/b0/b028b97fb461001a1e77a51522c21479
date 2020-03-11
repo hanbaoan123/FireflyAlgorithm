@@ -1,0 +1,12 @@
+package test;
+
+import algorithm.FANormal;
+
+public class FATest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FANormal faNormal = new FANormal(100, 100, 100);
+	}
+
+}

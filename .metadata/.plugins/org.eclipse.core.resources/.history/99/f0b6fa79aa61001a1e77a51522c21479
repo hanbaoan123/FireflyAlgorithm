@@ -1,0 +1,17 @@
+package domain;
+
+/**
+ * Ó©»ğ³æÊµÌåÀà
+ * 
+ * @author hba
+ *
+ */
+public class Firefly implements Comparable {
+
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
