@@ -1,9 +1,0 @@
-package domain;
-
-public class Position {
-	/**
-	 * Î¬¶È
-	 */
-	private int dimension;
-	
-}

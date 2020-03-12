@@ -142,6 +142,8 @@ public class FANormal implements FireflyAlgorithm {
 							+ attraction * (codej[ind] - codei[ind]) + alpha * (random.nextDouble() - 0.5) * scale[ind])
 							.toArray();
 					fireflyi.getPosition().setPositionCode(newPositionCode);
+					// Á¢¼´¸üÐÂ
+					// fireflyi.setLight(this.getObjectiveFun().getObjValue(newPositionCode));
 				}
 			}
 		}

@@ -1,8 +1,0 @@
-package domain;
-
-public class Range {
-	private int dim;
-	private double[] high;
-	private double[ low;]
-	
-}
